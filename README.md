@@ -8,7 +8,8 @@ quick list of commands to get this going
 >npm add aws-amplify aws-amplify-react
 >npm start
 
-rest of this page is boilerplate stuff . Keeping it here just for continuity
+rest of this page is boilerplate stuff . 
+Keeping it here just for continuity
 
 
 
