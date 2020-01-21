@@ -5,6 +5,7 @@ quick list of commands to get this going
 
 >npm install 
 >npm install -g @aws-amplify/cli
+>npm add aws-amplify aws-amplify-react
 >npm start
 
 rest of this page is boilerplate. 
