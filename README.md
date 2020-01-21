@@ -1,5 +1,18 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+quick list of commands to get this going
+
+>npm install 
+>npm install -g @aws-amplify/cli
+>npm start
+
+rest of this page is boilerplate. 
+
+
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
