@@ -17,7 +17,6 @@ type Comment @model {
 }
 """
 
-
 type CardTypes @model  {
   id: ID!
   cardTypeCategory: String!
@@ -31,5 +30,3 @@ type CardTypeFormField @model  {
   cardTypeFieldValue: String!
   cardType: CardTypes @connection(name: "CardTypeToFormFields")
 }
-
-
