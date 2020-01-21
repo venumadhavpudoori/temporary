@@ -9,20 +9,23 @@ const listTodos = `query listTodos {
   listTodos{
     items{
       id
-      name
-      description
+      cardTypeCategory
+      cardTypeTitle
+      cardTypeIcon
     }
   }
 }`;
 
-const addTodo = `mutation createTodo($name:String! $description: String!) {
+const addTodo = `mutation createTodo($cardTypeCategory:String! $cardTypeTitle:String! $cardTypeIcon:String!) {
   createTodo(input:{
-    name:$name
-    description:$description
+    cardTypeCategory:$cardTypeCategory
+    cardTypeTitle:$cardTypeTitle
+    cardTypeIcon:$cardTypeIcon
   }){
     id
-    name
-    description
+    cardTypeCategory
+    cardTypeTitle
+    cardTypeIcon
   }
 }`;
 
@@ -32,8 +35,9 @@ Amplify.configure(awsconfig);
 class App extends Component {
   todoMutation = async () => {
     const todoDetails = {
-      name: 'Party tonight!',
-      description: 'Amplify CLI rocks!'
+      cardTypeCategory: 'Category!',
+      cardTypeTitle: 'Title!',
+      cardTypeIcon: 'Icon!'
     };
   
     const newTodo = await API.graphql(graphqlOperation(addTodo, todoDetails));
@@ -44,6 +48,8 @@ class App extends Component {
     console.log('listing todos');
     const allTodos = await API.graphql(graphqlOperation(listTodos));
     console.log(allTodos);
+    console.log('this GraphQL Query data  pass to form',allTodos);
+
   };
 
   render(){
@@ -52,10 +58,25 @@ class App extends Component {
 
     return (
       <div className="App">
-       
-        <input type="file" onChange={this.uploadFile} />
-        <button onClick={this.listQuery}>GraphQL Query</button>
-        <button onClick={this.todoMutation}>GraphQL Mutation</button>
+       <input type="file" onChange={this.uploadFile} /><br></br><br></br><br></br><br></br>
+       <button onClick={this.todoMutation}>GraphQL Mutation</button><br></br>
+       <button  onClick={this.listQuery}>GraphQL Query</button><br></br><br></br>
+
+       <form>
+        <label>
+        cardTypeCategory:
+          <input type="text" value=" " />
+        </label><br></br>
+        <label>
+        cardTypeTitle:
+          <input type="text" value=" " />
+        </label><br></br>
+        <label>
+        cardTypeIcon:
+          <input type="text" value=" " />
+        </label><br></br>
+      </form>
+
       
       </div>
     );
