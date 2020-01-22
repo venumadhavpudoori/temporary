@@ -9,9 +9,9 @@ var CardTypeData = {
             "category": "Asset",
             "value2": "20",
             "cardTypeTitle": "Insurance purchased by client",
-            "cardTypeIcon":"name of icone"
+            "cardTypeIcon":"name of icone",
             "cardTypeCategory": "User Insurance purchased by client",
-            "cardType": "_insurance"
+            "cardType": "_insurance",
             "FormFields": [
                 {
                     "fieldkey": "insured_amount",
