@@ -2,21 +2,29 @@ var CardTypeData = {
     "items": [
         {
             "value3": "1000000",
-            "image": "wix:image://v1/nsplsh_35664e6d57656a34744141~mv2_d_7360_4912_s_4_2.jpg/Image%20by%20Helloquence.jpg#originWidth=7360&originHeight=4912",
-            "_id": "b6e66400-9d6c-4f28-8d37-feaaa0618a29",
-            "_owner": "7c13c18f-8fe1-4421-8d28-69a9ca22b3b7",
-            "_createdDate": "2019-10-17T08:18:56.871Z",
-            "field1": "insured_amount",
-            "_updatedDate": "2019-10-17T10:35:37.397Z",
-            "card_instance_id": "INS1",
-            "value1": "1000000",
+            
+
             "field3": "cash_value",
-            "card_description": "User Insurance purchased by client",
             "field2": "term",
             "category": "Asset",
             "value2": "20",
-            "title": "Insurance purchased by client",
-            "card_type": "_insurance"
+            "cardTypeTitle": "Insurance purchased by client",
+            "cardTypeIcon":"name of icone"
+            "cardTypeCategory": "User Insurance purchased by client",
+            "cardType": "_insurance"
+            "FormFields": [
+                {
+                    "fieldkey": "insured_amount",
+                    "fieldvalue": "1000000",
+
+                },
+                { 
+                    "fieldkey": "insured_amount",
+                    "fieldvalue": "1000000",
+
+                },
+
+            ]
         },
         {
             "value3": "15",
