@@ -75,7 +75,8 @@ class App extends Component {
          ii. a display button, which upon clicking should display all the current as received from 
          appsync
 
-         Note we are only using the local data\cardtype.js to simulate the iput form 
+         Note we are only using the local data\cardtype.js to simulate the input form . Please do not use it to display 
+         all records 
 
 
 
