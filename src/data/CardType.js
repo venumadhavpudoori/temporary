@@ -141,8 +141,6 @@ var CardTypeData = {
             "cardTypeTitle": "family essential expenses",
             "cardTypeIcon":"name of icone",
             "cardType": "_family_essentials_expense_data",
-            "goal_success": "14%",
-            "goal_priority": "2",
             "FormFields": [
                 {
                     "fieldkey": "annual_family_essentials_expense",
@@ -156,8 +154,6 @@ var CardTypeData = {
             "cardTypeTitle": "personal essential expenses",
             "cardTypeIcon":"name of icone",
             "cardType": "_personal_essentials_expense_data",
-            "goal_success": "56%",
-            "goal_priority": "1",
             "FormFields": [
                 {
                     "fieldkey": "annual_personal_essentials_expense",
@@ -171,8 +167,6 @@ var CardTypeData = {
             "cardTypeTitle": "kid 1 education",
             "cardTypeIcon":"name of icone",
             "cardType": "_kids_education_data",
-            "goal_success": "7%",
-            "goal_priority": "3",
             "FormFields": [
                 {
                     "fieldkey": "cost_per_year",
@@ -194,8 +188,6 @@ var CardTypeData = {
             "cardTypeTitle": "Luxury Item",
             "cardTypeIcon":"name of icone",
             "cardType": "_luxury_expense_data",
-            "goal_success": "7%",
-            "goal_priority": "4",
             "FormFields": [
                 {
                     "fieldkey": "luxury_type",
@@ -217,8 +209,6 @@ var CardTypeData = {
             "cardTypeTitle": "kid 2 education",
             "cardTypeIcon":"name of icone",
             "cardType": "_kids_education_data",
-            "goal_success": "0%",
-            "goal_priority": "5",
             "FormFields": [
                 {
                     "fieldkey": "cost_per_year",
@@ -240,8 +230,6 @@ var CardTypeData = {
             "cardTypeTitle": "personal lifestyle expenses",
             "cardTypeIcon":"name of icone",
             "cardType": "_personal_lifestyle_expense_data",
-            "goal_success": "90%",
-            "goal_priority": "1",
             "FormFields": [
                 {
                     "fieldkey": "annual_personal_lifestyle_expense",
@@ -255,8 +243,6 @@ var CardTypeData = {
             "cardTypeTitle": "family lifestyle  expenses",
             "cardTypeIcon":"name of icone",
             "cardType": "_family_lifestyle_expense_data",
-            "goal_success": "6%",
-            "goal_priority": "2",
             "FormFields": [
                 {
                     "fieldkey": "annual_family_lifestyle_expense",
