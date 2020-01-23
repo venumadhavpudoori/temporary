@@ -72,7 +72,10 @@ class App extends Component {
          item as plain text field (inner elements of the JSON do not have to be hamdled separately.) . 
          and finally, an upload button which uploads the specific item to appsync
 
-         ii. a display button, which upon clicking should display all the current elements 
+         ii. a display button, which upon clicking should display all the current as received from 
+         appsync
+
+         Note we are only using the local data\cardtype.js to simulate the iput form 
 
 
 
