@@ -10,10 +10,10 @@ const awsmobile = {
     "aws_user_pools_id": "ap-south-1_aOqZN34w5",
     "aws_user_pools_web_client_id": "1l001pjkvkur950bnl74li243b",
     "oauth": {},
-    "aws_appsync_graphqlEndpoint": "https://rsugutgwszajrou5lxmkmbxqtq.appsync-api.ap-south-1.amazonaws.com/graphql",
+    "aws_appsync_graphqlEndpoint": "https://gwhxfjwd2bfazaguwq5am5ns2i.appsync-api.ap-south-1.amazonaws.com/graphql",
     "aws_appsync_region": "ap-south-1",
     "aws_appsync_authenticationType": "API_KEY",
-    "aws_appsync_apiKey": "da2-pb4owynw3bg6ngk3z24wne3knq"
+    "aws_appsync_apiKey": "da2-tqxyllxazvdnjbpf4dbkwnruya"
 };
 
 
